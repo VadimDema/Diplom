@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="Styles/main.css" />
+    <title>Ecercises</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a href="index.html">
+          <img src="Assets/Img/Icons/Logoo.svg" alt="Logo" class="logo" />
+        </a>
+        <div id="burger-menu">
+          <span></span>
+        </div>
+      </header>
+    </div>
+    <div id="menu">
+      <ul>
+        <li><a href="#">Главная</a></li>
+        <li><a href="excercises.html">Упраженения</a></li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <h2 class="excercisess__title">Упражнения</h2>
+      <div class="search">
+        <label for="searchbox">Поиск:</label>
+        <input type="search" oninput="liveSearch()" id="searchbox" />
+      </div>
+      <section id="out"></section>
+
+      <div class="list__header">
+        <h2>Запишите тренировочный план</h2>
+        <form id="new-task-form">
+          <input
+            type="text"
+            name="new-task-input"
+            id="new-task-input"
+            placeholder="Составьте план тренировок сейчас?" />
+          <input
+            type="submit"
+            id="new-task-submit"
+            value="Добавить" />
+        </form>
+      </div>
+      <div class="main_list">
+        <section class="task-list">
+          <div id="tasks">
+
+            <!-- <div class="task">
+              <div class="content">
+                <input
+                  type="text"
+                  class="text"
+                  value="A new task"
+                  readonly>
+              </div>
+              <div class="actions">
+                <button class="edit">Редактировать</button>
+                <button class="delete">Добавить</button>
+              </div>
+            </div> -->
+
+          </div>
+        </section>
+      </div>
+
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <section class="ft-main">
+          <div class="ft-main-item">
+            <h2 class="ft-title">Общее</h2>
+            <ul>
+              <li><a href="index.html">Главная</a></li>
+              <li><a href="excercises.html">Тренировки</a></li>
+              <li><a href="#about">О нас</a></li>
+              <li><a href="https://fitstars.ru/recipes">Рецепты</a></li>
+            </ul>
+          </div>
+          <div class="ft-main-item">
+            <h2 class="ft-title">Материалы</h2>
+            <ul>
+              <li><a href="https://justsport.info/fitness">Статьи</a></li>
+              <li><a href="https://fitness-pro.ru/video/">Вебинары</a></li>
+            </ul>
+          </div>
+          <div class="ft-main-item">
+            <h2 class="ft-title">Соц сети</h2>
+            <ul class="socials">
+              <li class="socials__item">
+                <a class="items_icons" href="#"
+                  ><i class="fa-brands fa-telegram"></i
+                ></a>
+              </li>
+              <li class="socials__item">
+                <a class="items_icons" href="#"
+                  ><i class="fa-brands fa-vk"></i
+                ></a>
+              </li>
+              <li class="socials__item">
+                <a class="items_icons" href="#"
+                  ><i class="fa-brands fa-whatsapp"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="ft-main-item">
+            <h2 class="ft-title">Рассылка</h2>
+            <p>Подпишитесь на рассылку</p>
+            <form>
+              <input
+                type="email"
+                name="email"
+                placeholder="Введите свой Email"
+              />
+              <input type="submit" value="Подписаться" />
+            </form>
+          </div>
+        </section>
+      </div>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
+      integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="JS/app.js"></script>
+  </body>
+</html>

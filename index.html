@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.2.0/swiper-bundle.css"
+      integrity="sha512-Lc4aT4sbiVWDTSgqn3lf5kwKECm7rU45AReUS9WI2k4yRPSKtS+kJ9aV1jrxDUIyetNFRYZ3U2gR6WWbtWbIfA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="Styles/slider.css" />
+    <link rel="stylesheet" href="Styles/media.css">
+    <link rel="stylesheet" href="Styles/main.css" />
+    <title>Fitness App</title>
+  </head>
+  <body>
+    <section class="main">
+      <div class="container">
+        <header class="header">
+          <a href="index.html">
+            <img src="Assets/Img/Icons/Logoo.svg" alt="Logo" class="logo" />
+          </a>
+          <div id="burger-menu">
+            <span></span>
+          </div>
+        </header>
+        <div class="main_wrapper">
+          <h1 class="main__title">
+            ДОСТИГАЙТЕ СВОИХ ПРЕДЕЛОВ И ПЕРЕХОДИТЕ НА НОВЫЙ УРОВЕНЬ
+          </h1>
+          <a href="excercises.html" class="main__btn">Начать заниматься</a>
+        </div>
+      </div>
+      <div id="menu">
+        <ul>
+          <li><a href="#">Главная</a></li>
+          <li><a href="excercises.html">Упраженения</a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about__wrapper">
+          <h2 class="about__title">Тренировки как стиль жизни</h2>
+          <div class="about__descr">
+            <p class="descr">
+              Начните заниматься фитнесом с нашим сайтом. Прокачайте свое тело с помощью различных тренировок на все части тела.
+            </p>
+            <a class="about__btn" href="excercises.html">Начать заниматься</a>
+          </div>
+        </div>
+        <div class="photo__wrapper">
+          <img src="Assets/Img/women_1.jpg" alt="woman" class="img_1" />
+          <img src="Assets/Img/woman_2.jpg" alt="woman" class="img_2" />
+          <img src="Assets/Img/men.jpg" alt="men" class="img_3" />
+        </div>
+      </div>
+    </section>
+    <section class="testimonial">
+      <div class="testimonial-navigation">
+        <div class="button-prev"><i class="fa-solid fa-arrow-left"></i></div>
+        <div class="button-next"><i class="fa-solid fa-arrow-right"></i></div>
+      </div>
+
+      <div class="container">
+        <h2 class="section-title">Отзывы</h2>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <p>
+                  Хочу выразить огромную благодарность сайту.
+                  Тренировки здесь рабочие, сбросил 10 кг за 1,5 месяца.
+                </p>
+                <span>Иван</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <p>
+                 Занимаюсь уже 3 месяца. Результат отличный.
+                 Нравится разнообразие упражнений.
+                </p>
+                <span>Анастасия</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <p>
+                  Отличный сайт с тренировками!
+                  Радует, то, что можно посмотреть видео с правильной техникой
+                </p>
+                <span>Сергей</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <p>
+                  Занимаюсь по этми тренирвком месяц.
+                   Радует, что есть упражнения как со штангой , так и с гантелями.
+                </p>
+                <span>Алина</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <p>
+                  Супер сайт! Начал заниматься недавно, но уже есть прогресс!
+                </p>
+                <span>Александр</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <section class="ft-main">
+          <div class="ft-main-item">
+            <h2 class="ft-title">Общее</h2>
+            <ul>
+              <li><a href="index.html">Главная</a></li>
+              <li><a href="excercises.html">Тренировки</a></li>
+              <li><a href="#about">О нас</a></li>
+              <li><a href="https://fitstars.ru/recipes">Рецепты</a></li>
+            </ul>
+          </div>
+          <div class="ft-main-item">
+            <h2 class="ft-title">Материалы</h2>
+            <ul>
+              <li><a href="https://justsport.info/fitness">Статьи</a></li>
+              <li><a href="https://fitness-pro.ru/video/">Вебинары</a></li>
+            </ul>
+          </div>
+          <div class="ft-main-item">
+            <h2 class="ft-title">Соц сети</h2>
+            <ul class="socials">
+              <li class="socials__item">
+                <a class="items_icons" href="#"
+                  ><i class="fa-brands fa-telegram"></i
+                ></a>
+              </li>
+              <li class="socials__item">
+                <a class="items_icons" href="#"
+                  ><i class="fa-brands fa-vk"></i
+                ></a>
+              </li>
+              <li class="socials__item">
+                <a class="items_icons" href="#"
+                  ><i class="fa-brands fa-whatsapp"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="ft-main-item">
+            <h2 class="ft-title">Рассылка</h2>
+            <p>Подпишитесь на рассылку</p>
+            <form>
+              <input
+                type="email"
+                name="email"
+                placeholder="Введите свой Email"
+              />
+              <input type="submit" value="Подписаться" />
+            </form>
+          </div>
+        </section>
+      </div>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
+      integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.2.0/swiper-bundle.min.js"
+      integrity="sha512-KBCt3sdFOcFtYTgEfE3uJckVpvPr1w8HPugyPgHFE/4iJOwhwj6eSaF27bDJTHRX2jyAFOgV3Ve9vOD97rbjrg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="JS/app.js"></script>
+    <script src="JS/slider.js"></script>
+  </body>
+</html>
