@@ -2,7 +2,7 @@ let excercise = [
   {
     title: "Подъёмы гантелей сидя",
     category: "arms",
-    img: "/Assets/Img/biceps.jpg",
+    img: "Assets/Img/biceps.jpg",
     description:
       "Сядьте на наклонную скамью с гантелями в руках, прижмите тело к спинке, стопы — к полу. Опустите руки, чтобы они свободно свисали вниз, а локти находились за линией тела. Согните руки с гантелями, затем плавно и под контролем верните в исходное положение и повторите.",
     link: "https://youtu.be/5m7QrfXEavM",
@@ -10,7 +10,7 @@ let excercise = [
   {
     title: "Подъём штанги на бицепс",
     category: "arms",
-    img: "/Assets/Img/biceps_2.jpg",
+    img: "Assets/Img/biceps_2.jpg",
     description:
       "Возьмите штангу обратным хватом, согните локти и поднимите её до уровня плеч. Опустите обратно и повторите. Следите, чтобы двигались только руки, а остальное тело оставалось статичным: никакой раскачки быть не должно.",
     link: "https://www.youtube.com/watch?v=FqF11YdwxrQ",
@@ -18,7 +18,7 @@ let excercise = [
   {
     title: "Отжимания на брусьях",
     category: "arms",
-    img: "/Assets/Img/triceps.jpg",
+    img: "Assets/Img/triceps.jpg",
     description:
       "Запрыгните на брусья, опустите плечи и сведите лопатки, вытяните тело в одну линию. Согните локти и опуститесь вниз до параллели плеч с полом, но не ниже, чтобы не травмировать плечевой сустав. Выжмите себя обратно и повторите.",
     link: "https://www.youtube.com/watch?v=jlX_8EtaeCs",
@@ -26,7 +26,7 @@ let excercise = [
   {
     title: "Жим штанги стоя",
     category: "shoulders",
-    img: "/Assets/Img/shoulders.jpg",
+    img: "Assets/Img/shoulders.jpg",
     description:
       "Это упражнение хорошо нагружает и плечи, и трицепс. Возьмите штангу на грудь, выведите локти вперёд. Выжмите штангу вверх и уведите за голову. Опустите в исходное положение и повторите.",
     link: "https://youtu.be/0oj5pY3RQrc",
@@ -34,7 +34,7 @@ let excercise = [
   {
     title: "Разводка гантелей в стороны",
     category: "shoulders",
-    img: "/Assets/Img/shoulders_2.jpg",
+    img: "Assets/Img/shoulders_2.jpg",
     description:
       "Встаньте прямо, возьмите гантели, разверните руки ладонями к себе — это исходное положение. Чуть согните локти, разведите руки в стороны до параллели с полом. Опустите в исходное положение и повторите.",
     link: "https://www.youtube.com/watch?v=mRScm8cs_EM",
@@ -42,7 +42,7 @@ let excercise = [
   {
     title: "Жим гантелей лёжа",
     category: "chest",
-    img: "/Assets/Img/bench.jpg",
+    img: "Assets/Img/bench.jpg",
     description:
       "Медленно поднимите гантели вертикально вверх. Руки при этом вытянуты, но не вывернуты в локтях, запястья прямые. Аккуратно опустите руки, согнув их в локтях, гантели держите горизонтально.",
     link: "https://youtu.be/9CxcgGl5E7E",
@@ -50,7 +50,7 @@ let excercise = [
   {
     title: "Разводка гантелей лёжа на наклонной скамье",
     category: "chest",
-    img: "/Assets/Img/bench_2.jpg",
+    img: "Assets/Img/bench_2.jpg",
     description:
       "Плавно опускайте руки в стороны до тех пор, пока предплечья не будут параллельны полу. Локти при этом должны быть слегка согнуты. Чтобы достичь максимального растяжения грудных мышц, подайте грудную клетку чуть вверх, в противоход рукам. После чего вернитесь в исходное положение.",
     link: "https://youtu.be/xwtaHancCQc",
@@ -58,7 +58,7 @@ let excercise = [
   {
     title: "Отжимания от пола средним хватом",
     category: "chest",
-    img: "/Assets/Img/bench_3.jpg",
+    img: "Assets/Img/bench_3.jpg",
     description:
       "На вдохе плавно опуститесь к полу, сгибая руки в локтях. Продолжайте до тех пор, пока не коснётесь грудью пола. На выдохе вернитесь в исходное положение, полностью выпрямив руки.",
     link: "https://youtu.be/c902b5g8w0A",
@@ -66,7 +66,7 @@ let excercise = [
   {
     title: "Подтягивания прямым хватом",
     category: "back",
-    img: "/Assets/Img/back.jpg",
+    img: "Assets/Img/back.jpg",
     description:
       "Возьмитесь за турник, опустите плечи и сведите лопатки. Подтянитесь, чтобы подбородок вышел за уровень турника, опуститесь обратно и повторите. Во время подтягивания не применяйте рывки и раскачку.",
     link: "https://youtu.be/VUkBrVhRlv0",
@@ -74,7 +74,7 @@ let excercise = [
   {
     title: "Тяга штанги в наклоне",
     category: "back",
-    img: "/Assets/Img/back_2.jpg",
+    img: "Assets/Img/back_2.jpg",
     description:
       "Поднимите штангу с пола и выпрямитесь в тазобедренных и коленных суставах. Отведите таз назад, слегка согните колени и наклонитесь вперёд с прямой спиной, удерживая гриф в вытянутых руках.",
     link: "https://www.youtube.com/watch?v=njGz6T135lQ",
@@ -82,7 +82,7 @@ let excercise = [
   {
     title: "Приседания со штангой",
     category: "legs",
-    img: "/Assets/Img/squats.jpg",
+    img: "Assets/Img/squats.jpg",
     description:
       "Возьмите штангу со стоек, сведите лопатки, расправьте грудь, выпрямите спину. Поставьте ноги на ширине плеч, чуть разверните носки в стороны. Отведите таз назад и присядьте до параллели бёдер с полом.",
     link: "https://www.youtube.com/watch?v=GotRb2Ob7MA",
@@ -90,7 +90,7 @@ let excercise = [
   {
     title: "Выпады со штангой",
     category: "legs",
-    img: "/Assets/Img/legs_2.jpg",
+    img: "Assets/Img/legs_2.jpg",
     description:
       "Встаньте прямо, возьмите в руки утяжеляющие элементы, расправьте плечи, выпрямите спину. Сделайте выпад вперёд, не касайтесь пола коленом стоящей сзади ноги. Выпрямитесь и повторите с другой ноги.",
     link: "https://www.youtube.com/watch?v=HF0REfhKpfw",
@@ -98,7 +98,7 @@ let excercise = [
   {
     title: "Становая тяга",
     category: "legs",
-    img: "/Assets/Img/deadlift.jpg",
+    img: "Assets/Img/deadlift.jpg",
     description:
       "Не раскачиваясь и не перенося вес тела на носки, сорвите штангу движением мышц ног – квадрицепсов и ягодиц. После того как штанга прошла 20-30% амплитуды, выпрямите поясницу, выталкивая таз вперед, и зафиксируйте позицию.",
     link: "https://www.youtube.com/watch?v=108Ga1EdL_Q",
@@ -106,7 +106,7 @@ let excercise = [
   {
     title: "Скручивания",
     category: "abs",
-    img: "/Assets/Img/press.jpg",
+    img: "Assets/Img/press.jpg",
     description:
       "Выпрямите руки над головой или заведите их за голову. Сделайте выдох, напрягите пресс и задержите дыхание. Оторвите голову, плечи и лопатки от пола, поясницу оставьте прижатой к нему. Медленно вернитесь в исходное положение и повторите.",
     link: "https://www.youtube.com/watch?v=TnzEMaU3v78",
@@ -114,7 +114,7 @@ let excercise = [
   {
     title: "Велосипед",
     category: "abs",
-    img: "/Assets/Img/byclie.jpg",
+    img: "Assets/Img/byclie.jpg",
     description:
       "Уберите руки за голову и разведите локти в стороны. Не надо складывать руки в замок или давить ладонями на затылок — пальцы лишь слегка касаются головы. Поочерёдно сгибайте и выпрямляйте ноги, как будто крутите педали велосипеда.",
     link: "https://www.youtube.com/watch?v=RfbFnd1P36g",
